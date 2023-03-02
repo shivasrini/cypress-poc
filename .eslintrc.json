@@ -1,0 +1,25 @@
+{
+      "env": {
+            "cypress/globals": true,
+            "es6": true
+      },
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint", "cypress", "mocha"],
+      "extends": [
+            "eslint:recommended",
+            "plugin:@typescript-eslint/eslint-recommended",
+            "plugin:@typescript-eslint/recommended",
+            "plugin:prettier/recommended",
+            "prettier/@typescript-eslint",
+            "plugin:cypress/recommended",
+            "plugin:mocha/recommended"
+      ],
+      "globals": {
+            "describe": true,
+            "it": true
+      },
+      "rules": {
+            "no-var": "error",
+            "mocha/no-mocha-arrows": "off"
+      }
+}

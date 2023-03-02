@@ -1,0 +1,16 @@
+{
+      "compilerOptions": {
+            "resolveJsonModule": true,
+            "baseUrl": "./",
+            "paths": {},
+            "target": "es5",
+            "lib": ["es5", "dom"],
+            "types": [
+                  "cypress",
+                  "cypress-real-events",
+                  "cypress-plugin-api",
+                  "node"
+            ]
+      },
+      "include": ["**/*.ts"]
+}
